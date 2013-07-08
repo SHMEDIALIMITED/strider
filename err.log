@@ -563,3 +563,426 @@ ReferenceError: json is not defined
 8 Jul 13:58:18 - [34mdebug[39m: running function hook for phase cleanup
 8 Jul 13:58:18 - [34mdebug[39m: hook for phase cleanup complete
 8 Jul 13:58:18 - [34mdebug[39m: test url for email: http://ec2-54-246-42-0.eu-west-1.compute.amazonaws.com/shmedialimited/node-webapp-template/job/51dac528efacd39c14000009
+8 Jul 14:06:38 - [31merror[39m: TypeError: Cannot read property 'return_to' of undefined
+    at exports.index (/home/ec2-user/strider/routes/index.js:29:18)
+    at callbacks (/home/ec2-user/strider/node_modules/express/lib/router/index.js:161:37)
+    at param (/home/ec2-user/strider/node_modules/express/lib/router/index.js:135:11)
+    at pass (/home/ec2-user/strider/node_modules/express/lib/router/index.js:142:5)
+    at Router._dispatch (/home/ec2-user/strider/node_modules/express/lib/router/index.js:170:5)
+    at Object.router (/home/ec2-user/strider/node_modules/express/lib/router/index.js:33:10)
+    at next (/home/ec2-user/strider/node_modules/express/node_modules/connect/lib/proto.js:190:15)
+    at Object.setup [as handle] (/home/ec2-user/strider/lib/auth.js:161:5)
+    at Context.next (/home/ec2-user/strider/node_modules/express/node_modules/connect/lib/proto.js:190:15)
+    at Context.actions.pass (/home/ec2-user/strider/node_modules/passport/lib/passport/context/http/actions.js:77:8)
+8 Jul 14:07:49 - [34mdebug[39m: jobs.startJob(): saving job
+8 Jul 14:07:49 - [34mdebug[39m: jobs.startJob(): job saved
+8 Jul 14:08:00 - [34mdebug[39m: running function hook for phase prepare
+8 Jul 14:08:17 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 14:08:17 - [34mdebug[39m: running NO-OP hook for phase: prepare
+8 Jul 14:08:17 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 14:08:17 - [34mdebug[39m: running NO-OP hook for phase: prepare
+8 Jul 14:08:17 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 14:08:17 - [34mdebug[39m: running function hook for phase prepare
+8 Jul 14:08:17 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 14:08:17 - [34mdebug[39m: running function hook for phase test
+8 Jul 14:08:19 - [34mdebug[39m: hook for phase test complete
+8 Jul 14:08:19 - [34mdebug[39m: running shell command hook for phase test: $(test -x ~/bin/node && echo ~/bin/node || echo node) ../../node_modules/npm/bin/npm-cli.js test
+8 Jul 14:08:19 - [34mdebug[39m: hook for phase test complete
+8 Jul 14:08:19 - [34mdebug[39m: running function hook for phase test
+8 Jul 14:08:19 - [34mdebug[39m: hook for phase test complete
+8 Jul 14:08:19 - [34mdebug[39m: running function hook for phase test
+8 Jul 14:08:19 - [34mdebug[39m: hook for phase test complete
+8 Jul 14:08:19 - [34mdebug[39m: running Heroku deploy hook
+8 Jul 14:08:57 - [34mdebug[39m: running function hook for phase deploy
+8 Jul 14:08:57 - [34mdebug[39m: hook for phase deploy complete
+8 Jul 14:08:57 - [34mdebug[39m: Failure in phase deploy, running cleanup and failing build
+8 Jul 14:08:57 - [34mdebug[39m: running NO-OP hook for phase: cleanup
+8 Jul 14:08:57 - [34mdebug[39m: hook for phase cleanup complete
+8 Jul 14:08:57 - [34mdebug[39m: running NO-OP hook for phase: cleanup
+8 Jul 14:08:57 - [34mdebug[39m: hook for phase cleanup complete
+8 Jul 14:08:57 - [34mdebug[39m: running function hook for phase cleanup
+8 Jul 14:08:57 - [34mdebug[39m: hook for phase cleanup complete
+8 Jul 14:08:57 - [34mdebug[39m: running function hook for phase cleanup
+8 Jul 14:08:57 - [34mdebug[39m: hook for phase cleanup complete
+8 Jul 14:08:57 - [34mdebug[39m: test url for email: http://ec2-54-246-42-0.eu-west-1.compute.amazonaws.com/shmedialimited/node-webapp-template/job/51dac7b5a097299219000008
+8 Jul 14:15:32 - [34mdebug[39m: jobs.startJob(): saving job
+8 Jul 14:15:32 - [34mdebug[39m: jobs.startJob(): job saved
+8 Jul 14:15:44 - [34mdebug[39m: running function hook for phase prepare
+8 Jul 14:16:02 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 14:16:02 - [34mdebug[39m: running NO-OP hook for phase: prepare
+8 Jul 14:16:02 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 14:16:02 - [34mdebug[39m: running NO-OP hook for phase: prepare
+8 Jul 14:16:02 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 14:16:02 - [34mdebug[39m: running function hook for phase prepare
+8 Jul 14:16:02 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 14:16:02 - [34mdebug[39m: running function hook for phase test
+8 Jul 14:16:03 - [34mdebug[39m: hook for phase test complete
+8 Jul 14:16:03 - [34mdebug[39m: running shell command hook for phase test: $(test -x ~/bin/node && echo ~/bin/node || echo node) ../../node_modules/npm/bin/npm-cli.js test
+8 Jul 14:16:04 - [34mdebug[39m: hook for phase test complete
+8 Jul 14:16:04 - [34mdebug[39m: running function hook for phase test
+8 Jul 14:16:04 - [34mdebug[39m: hook for phase test complete
+8 Jul 14:16:04 - [34mdebug[39m: running function hook for phase test
+8 Jul 14:16:04 - [34mdebug[39m: hook for phase test complete
+8 Jul 14:16:04 - [34mdebug[39m: running Heroku deploy hook
+8 Jul 14:16:26 - [34mdebug[39m: jobs.startJob(): saving job
+8 Jul 14:16:26 - [34mdebug[39m: jobs.startJob(): job saved
+8 Jul 14:16:45 - [34mdebug[39m: running function hook for phase prepare
+8 Jul 14:17:01 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 14:17:01 - [34mdebug[39m: running NO-OP hook for phase: prepare
+8 Jul 14:17:01 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 14:17:01 - [34mdebug[39m: running NO-OP hook for phase: prepare
+8 Jul 14:17:01 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 14:17:01 - [34mdebug[39m: running function hook for phase prepare
+8 Jul 14:17:01 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 14:17:01 - [34mdebug[39m: running function hook for phase test
+8 Jul 14:17:02 - [34mdebug[39m: hook for phase test complete
+8 Jul 14:17:02 - [34mdebug[39m: running shell command hook for phase test: $(test -x ~/bin/node && echo ~/bin/node || echo node) ../../node_modules/npm/bin/npm-cli.js test
+8 Jul 14:17:03 - [34mdebug[39m: hook for phase test complete
+8 Jul 14:17:03 - [34mdebug[39m: running function hook for phase test
+8 Jul 14:17:03 - [34mdebug[39m: hook for phase test complete
+8 Jul 14:17:03 - [34mdebug[39m: running function hook for phase test
+8 Jul 14:17:03 - [34mdebug[39m: hook for phase test complete
+8 Jul 14:17:03 - [34mdebug[39m: running Heroku deploy hook
+8 Jul 14:17:42 - [34mdebug[39m: running function hook for phase deploy
+8 Jul 14:17:42 - [34mdebug[39m: hook for phase deploy complete
+8 Jul 14:17:42 - [34mdebug[39m: Failure in phase deploy, running cleanup and failing build
+8 Jul 14:17:42 - [34mdebug[39m: running NO-OP hook for phase: cleanup
+8 Jul 14:17:42 - [34mdebug[39m: hook for phase cleanup complete
+8 Jul 14:17:42 - [34mdebug[39m: running NO-OP hook for phase: cleanup
+8 Jul 14:17:42 - [34mdebug[39m: hook for phase cleanup complete
+8 Jul 14:17:42 - [34mdebug[39m: running function hook for phase cleanup
+8 Jul 14:17:42 - [34mdebug[39m: hook for phase cleanup complete
+8 Jul 14:17:42 - [34mdebug[39m: running function hook for phase cleanup
+8 Jul 14:17:42 - [34mdebug[39m: hook for phase cleanup complete
+8 Jul 14:17:43 - [34mdebug[39m: test url for email: http://ec2-54-246-42-0.eu-west-1.compute.amazonaws.com/shmedialimited/node-webapp-template/job/51dac9ba45d4a3541e000008
+8 Jul 14:25:49 - [34mdebug[39m: jobs.startJob(): saving job
+8 Jul 14:25:49 - [34mdebug[39m: jobs.startJob(): job saved
+8 Jul 14:26:14 - [34mdebug[39m: running function hook for phase prepare
+8 Jul 14:26:31 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 14:26:31 - [34mdebug[39m: running NO-OP hook for phase: prepare
+8 Jul 14:26:31 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 14:26:31 - [34mdebug[39m: running NO-OP hook for phase: prepare
+8 Jul 14:26:31 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 14:26:31 - [34mdebug[39m: running function hook for phase prepare
+8 Jul 14:26:31 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 14:26:31 - [34mdebug[39m: running function hook for phase test
+8 Jul 14:26:32 - [34mdebug[39m: hook for phase test complete
+8 Jul 14:26:32 - [34mdebug[39m: running shell command hook for phase test: $(test -x ~/bin/node && echo ~/bin/node || echo node) ../../node_modules/npm/bin/npm-cli.js test
+8 Jul 14:26:33 - [34mdebug[39m: hook for phase test complete
+8 Jul 14:26:33 - [34mdebug[39m: running function hook for phase test
+8 Jul 14:26:33 - [34mdebug[39m: hook for phase test complete
+8 Jul 14:26:33 - [34mdebug[39m: running function hook for phase test
+8 Jul 14:26:33 - [34mdebug[39m: hook for phase test complete
+8 Jul 14:26:33 - [34mdebug[39m: running Heroku deploy hook
+8 Jul 14:27:24 - [34mdebug[39m: running function hook for phase deploy
+8 Jul 14:27:24 - [34mdebug[39m: hook for phase deploy complete
+8 Jul 14:27:24 - [34mdebug[39m: Failure in phase deploy, running cleanup and failing build
+8 Jul 14:27:24 - [34mdebug[39m: running NO-OP hook for phase: cleanup
+8 Jul 14:27:24 - [34mdebug[39m: hook for phase cleanup complete
+8 Jul 14:27:24 - [34mdebug[39m: running NO-OP hook for phase: cleanup
+8 Jul 14:27:24 - [34mdebug[39m: hook for phase cleanup complete
+8 Jul 14:27:24 - [34mdebug[39m: running function hook for phase cleanup
+8 Jul 14:27:24 - [34mdebug[39m: hook for phase cleanup complete
+8 Jul 14:27:24 - [34mdebug[39m: running function hook for phase cleanup
+8 Jul 14:27:24 - [34mdebug[39m: hook for phase cleanup complete
+8 Jul 14:27:24 - [34mdebug[39m: test url for email: http://ec2-54-246-42-0.eu-west-1.compute.amazonaws.com/shmedialimited/node-webapp-template/job/51dacbed7276c6ed20000008
+8 Jul 15:14:15 - [34mdebug[39m: jobs.startJob(): saving job
+8 Jul 15:14:15 - [34mdebug[39m: jobs.startJob(): job saved
+8 Jul 15:14:36 - [34mdebug[39m: running function hook for phase prepare
+8 Jul 15:15:14 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 15:15:14 - [34mdebug[39m: running NO-OP hook for phase: prepare
+8 Jul 15:15:14 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 15:15:14 - [34mdebug[39m: running NO-OP hook for phase: prepare
+8 Jul 15:15:14 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 15:15:14 - [34mdebug[39m: running function hook for phase prepare
+8 Jul 15:15:14 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 15:15:14 - [34mdebug[39m: running function hook for phase test
+8 Jul 15:15:16 - [34mdebug[39m: hook for phase test complete
+8 Jul 15:15:16 - [34mdebug[39m: running shell command hook for phase test: $(test -x ~/bin/node && echo ~/bin/node || echo node) ../../node_modules/npm/bin/npm-cli.js test
+8 Jul 15:15:16 - [34mdebug[39m: hook for phase test complete
+8 Jul 15:15:16 - [34mdebug[39m: running function hook for phase test
+8 Jul 15:15:16 - [34mdebug[39m: hook for phase test complete
+8 Jul 15:15:16 - [34mdebug[39m: running function hook for phase test
+8 Jul 15:15:16 - [34mdebug[39m: hook for phase test complete
+8 Jul 15:15:16 - [34mdebug[39m: running Heroku deploy hook
+8 Jul 15:16:10 - [34mdebug[39m: running function hook for phase deploy
+8 Jul 15:16:10 - [34mdebug[39m: hook for phase deploy complete
+8 Jul 15:16:10 - [34mdebug[39m: Failure in phase deploy, running cleanup and failing build
+8 Jul 15:16:10 - [34mdebug[39m: running NO-OP hook for phase: cleanup
+8 Jul 15:16:10 - [34mdebug[39m: hook for phase cleanup complete
+8 Jul 15:16:10 - [34mdebug[39m: running NO-OP hook for phase: cleanup
+8 Jul 15:16:10 - [34mdebug[39m: hook for phase cleanup complete
+8 Jul 15:16:10 - [34mdebug[39m: running function hook for phase cleanup
+8 Jul 15:16:10 - [34mdebug[39m: hook for phase cleanup complete
+8 Jul 15:16:10 - [34mdebug[39m: running function hook for phase cleanup
+8 Jul 15:16:10 - [34mdebug[39m: hook for phase cleanup complete
+8 Jul 15:16:10 - [34mdebug[39m: test url for email: http://ec2-54-246-42-0.eu-west-1.compute.amazonaws.com/shmedialimited/node-webapp-template/job/51dad7471f0ba47023000008
+8 Jul 15:19:51 - [34mdebug[39m: jobs.startJob(): saving job
+8 Jul 15:19:51 - [34mdebug[39m: jobs.startJob(): job saved
+8 Jul 15:20:07 - [34mdebug[39m: running function hook for phase prepare
+8 Jul 15:20:55 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 15:20:55 - [34mdebug[39m: running NO-OP hook for phase: prepare
+8 Jul 15:20:55 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 15:20:55 - [34mdebug[39m: running NO-OP hook for phase: prepare
+8 Jul 15:20:55 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 15:20:55 - [34mdebug[39m: running function hook for phase prepare
+8 Jul 15:20:55 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 15:20:55 - [34mdebug[39m: running function hook for phase test
+8 Jul 15:20:57 - [34mdebug[39m: hook for phase test complete
+8 Jul 15:20:57 - [34mdebug[39m: running shell command hook for phase test: $(test -x ~/bin/node && echo ~/bin/node || echo node) ../../node_modules/npm/bin/npm-cli.js test
+8 Jul 15:20:57 - [34mdebug[39m: hook for phase test complete
+8 Jul 15:20:57 - [34mdebug[39m: running function hook for phase test
+8 Jul 15:20:57 - [34mdebug[39m: hook for phase test complete
+8 Jul 15:20:57 - [34mdebug[39m: running function hook for phase test
+8 Jul 15:20:57 - [34mdebug[39m: hook for phase test complete
+8 Jul 15:20:57 - [34mdebug[39m: running Heroku deploy hook
+8 Jul 15:21:35 - [34mdebug[39m: running function hook for phase deploy
+8 Jul 15:21:35 - [34mdebug[39m: hook for phase deploy complete
+8 Jul 15:21:35 - [34mdebug[39m: Failure in phase deploy, running cleanup and failing build
+8 Jul 15:21:35 - [34mdebug[39m: running NO-OP hook for phase: cleanup
+8 Jul 15:21:35 - [34mdebug[39m: hook for phase cleanup complete
+8 Jul 15:21:35 - [34mdebug[39m: running NO-OP hook for phase: cleanup
+8 Jul 15:21:35 - [34mdebug[39m: hook for phase cleanup complete
+8 Jul 15:21:35 - [34mdebug[39m: running function hook for phase cleanup
+8 Jul 15:21:35 - [34mdebug[39m: hook for phase cleanup complete
+8 Jul 15:21:35 - [34mdebug[39m: running function hook for phase cleanup
+8 Jul 15:21:35 - [34mdebug[39m: hook for phase cleanup complete
+8 Jul 15:21:35 - [34mdebug[39m: test url for email: http://ec2-54-246-42-0.eu-west-1.compute.amazonaws.com/shmedialimited/node-webapp-template/job/51dad89739b86df025000008
+8 Jul 15:29:50 - [34mdebug[39m: POST to Github /webhook payload: {"ref":"refs/heads/master","after":"8b96e3e2583d2da52450b7553f8e7377663e5824","before":"aa1bdd9185977efd797b45d6e9aec8874aa5766f","created":false,"deleted":false,"forced":false,"compare":"https://github.com/SHMEDIALIMITED/node-webapp-template/compare/aa1bdd918597...8b96e3e2583d","commits":[{"id":"8b96e3e2583d2da52450b7553f8e7377663e5824","distinct":true,"message":"t","timestamp":"2013-07-08T08:29:23-07:00","url":"https://github.com/SHMEDIALIMITED/node-webapp-template/commit/8b96e3e2583d2da52450b7553f8e7377663e5824","author":{"name":"Patrick Wolleb","email":"patrick.wolleb@shmedia.co.uk","username":"PatrickWolleb"},"committer":{"name":"Patrick Wolleb","email":"patrick.wolleb@shmedia.co.uk","username":"PatrickWolleb"},"added":[],"removed":[],"modified":["strider-custom.json"]}],"head_commit":{"id":"8b96e3e2583d2da52450b7553f8e7377663e5824","distinct":true,"message":"t","timestamp":"2013-07-08T08:29:23-07:00","url":"https://github.com/SHMEDIALIMITED/node-webapp-template/commit/8b96e3e2583d2da52450b7553f8e7377663e5824","author":{"name":"Patrick Wolleb","email":"patrick.wolleb@shmedia.co.uk","username":"PatrickWolleb"},"committer":{"name":"Patrick Wolleb","email":"patrick.wolleb@shmedia.co.uk","username":"PatrickWolleb"},"added":[],"removed":[],"modified":["strider-custom.json"]},"repository":{"id":11176293,"name":"node-webapp-template","url":"https://github.com/SHMEDIALIMITED/node-webapp-template","description":"","watchers":0,"stargazers":0,"forks":0,"fork":false,"size":38972,"owner":{"name":"SHMEDIALIMITED","email":""},"private":false,"open_issues":0,"has_issues":true,"has_downloads":true,"has_wiki":true,"language":"JavaScript","created_at":1372941040,"pushed_at":1373297389,"master_branch":"master","organization":"SHMEDIALIMITED"},"pusher":{"name":"PatrickWolleb","email":"patrick.wolleb@shmedia.co.uk"}}
+8 Jul 15:29:50 - [34mdebug[39m: jobs.startJob(): saving job
+8 Jul 15:29:50 - [34mdebug[39m: jobs.startJob(): job saved
+8 Jul 15:30:11 - [34mdebug[39m: running function hook for phase prepare
+8 Jul 15:30:27 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 15:30:27 - [34mdebug[39m: running NO-OP hook for phase: prepare
+8 Jul 15:30:27 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 15:30:27 - [34mdebug[39m: running NO-OP hook for phase: prepare
+8 Jul 15:30:27 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 15:30:27 - [34mdebug[39m: running function hook for phase prepare
+8 Jul 15:30:27 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 15:30:27 - [34mdebug[39m: running function hook for phase test
+8 Jul 15:30:29 - [34mdebug[39m: hook for phase test complete
+8 Jul 15:30:29 - [34mdebug[39m: running shell command hook for phase test: $(test -x ~/bin/node && echo ~/bin/node || echo node) ../../node_modules/npm/bin/npm-cli.js test
+8 Jul 15:30:29 - [34mdebug[39m: hook for phase test complete
+8 Jul 15:30:29 - [34mdebug[39m: running function hook for phase test
+8 Jul 15:30:29 - [34mdebug[39m: hook for phase test complete
+8 Jul 15:30:29 - [34mdebug[39m: running function hook for phase test
+8 Jul 15:30:29 - [34mdebug[39m: hook for phase test complete
+8 Jul 15:30:29 - [34mdebug[39m: running Heroku deploy hook
+8 Jul 15:31:14 - [34mdebug[39m: running function hook for phase deploy
+8 Jul 15:31:14 - [34mdebug[39m: hook for phase deploy complete
+8 Jul 15:31:14 - [34mdebug[39m: Failure in phase deploy, running cleanup and failing build
+8 Jul 15:31:14 - [34mdebug[39m: running NO-OP hook for phase: cleanup
+8 Jul 15:31:14 - [34mdebug[39m: hook for phase cleanup complete
+8 Jul 15:31:14 - [34mdebug[39m: running NO-OP hook for phase: cleanup
+8 Jul 15:31:14 - [34mdebug[39m: hook for phase cleanup complete
+8 Jul 15:31:14 - [34mdebug[39m: running function hook for phase cleanup
+8 Jul 15:31:14 - [34mdebug[39m: hook for phase cleanup complete
+8 Jul 15:31:14 - [34mdebug[39m: running function hook for phase cleanup
+8 Jul 15:31:14 - [34mdebug[39m: hook for phase cleanup complete
+8 Jul 15:31:14 - [34mdebug[39m: test url for email: http://ec2-54-246-42-0.eu-west-1.compute.amazonaws.com/shmedialimited/node-webapp-template/job/51dadaee39b86df025000009
+8 Jul 15:33:29 - [34mdebug[39m: jobs.startJob(): saving job
+8 Jul 15:33:29 - [34mdebug[39m: jobs.startJob(): job saved
+8 Jul 15:33:40 - [34mdebug[39m: running function hook for phase prepare
+8 Jul 15:33:59 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 15:33:59 - [34mdebug[39m: running NO-OP hook for phase: prepare
+8 Jul 15:33:59 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 15:33:59 - [34mdebug[39m: running NO-OP hook for phase: prepare
+8 Jul 15:33:59 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 15:33:59 - [34mdebug[39m: running function hook for phase prepare
+8 Jul 15:33:59 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 15:33:59 - [34mdebug[39m: running function hook for phase test
+8 Jul 15:34:07 - [34mdebug[39m: hook for phase test complete
+8 Jul 15:34:07 - [34mdebug[39m: running shell command hook for phase test: $(test -x ~/bin/node && echo ~/bin/node || echo node) ../../node_modules/npm/bin/npm-cli.js test
+8 Jul 15:34:12 - [34mdebug[39m: hook for phase test complete
+8 Jul 15:34:12 - [34mdebug[39m: running function hook for phase test
+8 Jul 15:34:12 - [34mdebug[39m: hook for phase test complete
+8 Jul 15:34:12 - [34mdebug[39m: running function hook for phase test
+8 Jul 15:34:12 - [34mdebug[39m: hook for phase test complete
+8 Jul 15:34:12 - [34mdebug[39m: running Heroku deploy hook
+8 Jul 15:35:15 - [34mdebug[39m: running function hook for phase deploy
+8 Jul 15:35:16 - [34mdebug[39m: hook for phase deploy complete
+8 Jul 15:35:16 - [34mdebug[39m: Failure in phase deploy, running cleanup and failing build
+8 Jul 15:35:16 - [34mdebug[39m: running NO-OP hook for phase: cleanup
+8 Jul 15:35:16 - [34mdebug[39m: hook for phase cleanup complete
+8 Jul 15:35:16 - [34mdebug[39m: running NO-OP hook for phase: cleanup
+8 Jul 15:35:16 - [34mdebug[39m: hook for phase cleanup complete
+8 Jul 15:35:16 - [34mdebug[39m: running function hook for phase cleanup
+8 Jul 15:35:16 - [34mdebug[39m: hook for phase cleanup complete
+8 Jul 15:35:16 - [34mdebug[39m: running function hook for phase cleanup
+8 Jul 15:35:16 - [34mdebug[39m: hook for phase cleanup complete
+8 Jul 15:35:16 - [34mdebug[39m: test url for email: http://ec2-54-246-42-0.eu-west-1.compute.amazonaws.com/shmedialimited/node-webapp-template/job/51dadbc94874e4632b000008
+8 Jul 15:36:41 - [34mdebug[39m: jobs.startJob(): saving job
+8 Jul 15:36:41 - [34mdebug[39m: jobs.startJob(): job saved
+8 Jul 15:37:00 - [34mdebug[39m: running function hook for phase prepare
+8 Jul 15:37:17 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 15:37:17 - [34mdebug[39m: running NO-OP hook for phase: prepare
+8 Jul 15:37:17 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 15:37:17 - [34mdebug[39m: running NO-OP hook for phase: prepare
+8 Jul 15:37:17 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 15:37:17 - [34mdebug[39m: running function hook for phase prepare
+8 Jul 15:37:17 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 15:37:17 - [34mdebug[39m: running function hook for phase test
+8 Jul 15:37:18 - [34mdebug[39m: hook for phase test complete
+8 Jul 15:37:18 - [34mdebug[39m: running shell command hook for phase test: $(test -x ~/bin/node && echo ~/bin/node || echo node) ../../node_modules/npm/bin/npm-cli.js test
+8 Jul 15:37:19 - [34mdebug[39m: hook for phase test complete
+8 Jul 15:37:19 - [34mdebug[39m: running function hook for phase test
+8 Jul 15:37:19 - [34mdebug[39m: hook for phase test complete
+8 Jul 15:37:19 - [34mdebug[39m: running function hook for phase test
+8 Jul 15:37:19 - [34mdebug[39m: hook for phase test complete
+8 Jul 15:37:19 - [34mdebug[39m: running function hook for phase deploy
+8 Jul 15:37:19 - [34mdebug[39m: hook for phase deploy complete
+8 Jul 15:37:19 - [34mdebug[39m: running NO-OP hook for phase: deploy
+8 Jul 15:37:19 - [34mdebug[39m: hook for phase deploy complete
+8 Jul 15:37:19 - [34mdebug[39m: running NO-OP hook for phase: deploy
+8 Jul 15:37:19 - [34mdebug[39m: hook for phase deploy complete
+8 Jul 15:37:19 - [34mdebug[39m: running function hook for phase deploy
+8 Jul 15:37:19 - [34mdebug[39m: hook for phase deploy complete
+8 Jul 15:37:19 - [34mdebug[39m: running NO-OP hook for phase: cleanup
+8 Jul 15:37:19 - [34mdebug[39m: hook for phase cleanup complete
+8 Jul 15:37:19 - [34mdebug[39m: running NO-OP hook for phase: cleanup
+8 Jul 15:37:19 - [34mdebug[39m: hook for phase cleanup complete
+8 Jul 15:37:19 - [34mdebug[39m: running function hook for phase cleanup
+8 Jul 15:37:19 - [34mdebug[39m: hook for phase cleanup complete
+8 Jul 15:37:19 - [34mdebug[39m: running function hook for phase cleanup
+8 Jul 15:37:19 - [34mdebug[39m: hook for phase cleanup complete
+8 Jul 15:38:25 - [34mdebug[39m: POST to Github /webhook payload: {"ref":"refs/heads/master","after":"10989a7bf0a8a2ec8a736166b3947d804c5dda7b","before":"8b96e3e2583d2da52450b7553f8e7377663e5824","created":false,"deleted":false,"forced":false,"compare":"https://github.com/SHMEDIALIMITED/node-webapp-template/compare/8b96e3e2583d...10989a7bf0a8","commits":[{"id":"10989a7bf0a8a2ec8a736166b3947d804c5dda7b","distinct":true,"message":"t","timestamp":"2013-07-08T08:37:56-07:00","url":"https://github.com/SHMEDIALIMITED/node-webapp-template/commit/10989a7bf0a8a2ec8a736166b3947d804c5dda7b","author":{"name":"Patrick Wolleb","email":"patrick.wolleb@shmedia.co.uk","username":"PatrickWolleb"},"committer":{"name":"Patrick Wolleb","email":"patrick.wolleb@shmedia.co.uk","username":"PatrickWolleb"},"added":[],"removed":[],"modified":["strider-custom.json"]}],"head_commit":{"id":"10989a7bf0a8a2ec8a736166b3947d804c5dda7b","distinct":true,"message":"t","timestamp":"2013-07-08T08:37:56-07:00","url":"https://github.com/SHMEDIALIMITED/node-webapp-template/commit/10989a7bf0a8a2ec8a736166b3947d804c5dda7b","author":{"name":"Patrick Wolleb","email":"patrick.wolleb@shmedia.co.uk","username":"PatrickWolleb"},"committer":{"name":"Patrick Wolleb","email":"patrick.wolleb@shmedia.co.uk","username":"PatrickWolleb"},"added":[],"removed":[],"modified":["strider-custom.json"]},"repository":{"id":11176293,"name":"node-webapp-template","url":"https://github.com/SHMEDIALIMITED/node-webapp-template","description":"","watchers":0,"stargazers":0,"forks":0,"fork":false,"size":52008,"owner":{"name":"SHMEDIALIMITED","email":""},"private":false,"open_issues":0,"has_issues":true,"has_downloads":true,"has_wiki":true,"language":"JavaScript","created_at":1372941040,"pushed_at":1373297904,"master_branch":"master","organization":"SHMEDIALIMITED"},"pusher":{"name":"PatrickWolleb","email":"patrick.wolleb@shmedia.co.uk"}}
+8 Jul 15:38:26 - [34mdebug[39m: jobs.startJob(): saving job
+8 Jul 15:38:26 - [34mdebug[39m: jobs.startJob(): job saved
+8 Jul 15:38:48 - [34mdebug[39m: jobs.startJob(): saving job
+8 Jul 15:38:48 - [34mdebug[39m: jobs.startJob(): job saved
+8 Jul 15:38:51 - [34mdebug[39m: running function hook for phase prepare
+8 Jul 15:39:07 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 15:39:07 - [34mdebug[39m: running NO-OP hook for phase: prepare
+8 Jul 15:39:07 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 15:39:07 - [34mdebug[39m: running NO-OP hook for phase: prepare
+8 Jul 15:39:07 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 15:39:07 - [34mdebug[39m: running function hook for phase prepare
+8 Jul 15:39:07 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 15:39:07 - [34mdebug[39m: running function hook for phase test
+8 Jul 15:39:08 - [34mdebug[39m: hook for phase test complete
+8 Jul 15:39:08 - [34mdebug[39m: running shell command hook for phase test: $(test -x ~/bin/node && echo ~/bin/node || echo node) ../../node_modules/npm/bin/npm-cli.js test
+8 Jul 15:39:09 - [34mdebug[39m: hook for phase test complete
+8 Jul 15:39:09 - [34mdebug[39m: running function hook for phase test
+8 Jul 15:39:09 - [34mdebug[39m: hook for phase test complete
+8 Jul 15:39:09 - [34mdebug[39m: running function hook for phase test
+8 Jul 15:39:09 - [34mdebug[39m: hook for phase test complete
+8 Jul 15:39:09 - [34mdebug[39m: running Heroku deploy hook
+8 Jul 15:39:56 - [34mdebug[39m: running function hook for phase deploy
+8 Jul 15:39:56 - [34mdebug[39m: hook for phase deploy complete
+8 Jul 15:39:56 - [34mdebug[39m: running NO-OP hook for phase: deploy
+8 Jul 15:39:56 - [34mdebug[39m: hook for phase deploy complete
+8 Jul 15:39:56 - [34mdebug[39m: running NO-OP hook for phase: deploy
+8 Jul 15:39:56 - [34mdebug[39m: hook for phase deploy complete
+8 Jul 15:39:56 - [34mdebug[39m: running function hook for phase deploy
+8 Jul 15:39:56 - [34mdebug[39m: hook for phase deploy complete
+8 Jul 15:39:56 - [34mdebug[39m: running NO-OP hook for phase: cleanup
+8 Jul 15:39:56 - [34mdebug[39m: hook for phase cleanup complete
+8 Jul 15:39:56 - [34mdebug[39m: running NO-OP hook for phase: cleanup
+8 Jul 15:39:56 - [34mdebug[39m: hook for phase cleanup complete
+8 Jul 15:39:56 - [34mdebug[39m: running function hook for phase cleanup
+8 Jul 15:39:56 - [34mdebug[39m: hook for phase cleanup complete
+8 Jul 15:39:56 - [34mdebug[39m: running function hook for phase cleanup
+8 Jul 15:39:56 - [34mdebug[39m: hook for phase cleanup complete
+8 Jul 15:40:08 - [34mdebug[39m: running function hook for phase prepare
+8 Jul 15:41:01 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 15:41:01 - [34mdebug[39m: running NO-OP hook for phase: prepare
+8 Jul 15:41:01 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 15:41:01 - [34mdebug[39m: running NO-OP hook for phase: prepare
+8 Jul 15:41:01 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 15:41:01 - [34mdebug[39m: running function hook for phase prepare
+8 Jul 15:41:01 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 15:41:01 - [34mdebug[39m: running function hook for phase test
+8 Jul 15:41:03 - [34mdebug[39m: hook for phase test complete
+8 Jul 15:41:03 - [34mdebug[39m: running shell command hook for phase test: $(test -x ~/bin/node && echo ~/bin/node || echo node) ../../node_modules/npm/bin/npm-cli.js test
+8 Jul 15:41:03 - [34mdebug[39m: hook for phase test complete
+8 Jul 15:41:03 - [34mdebug[39m: running function hook for phase test
+8 Jul 15:41:03 - [34mdebug[39m: hook for phase test complete
+8 Jul 15:41:03 - [34mdebug[39m: running function hook for phase test
+8 Jul 15:41:03 - [34mdebug[39m: hook for phase test complete
+8 Jul 15:41:03 - [34mdebug[39m: running function hook for phase deploy
+8 Jul 15:41:03 - [34mdebug[39m: hook for phase deploy complete
+8 Jul 15:41:03 - [34mdebug[39m: running NO-OP hook for phase: deploy
+8 Jul 15:41:03 - [34mdebug[39m: hook for phase deploy complete
+8 Jul 15:41:03 - [34mdebug[39m: running NO-OP hook for phase: deploy
+8 Jul 15:41:03 - [34mdebug[39m: hook for phase deploy complete
+8 Jul 15:41:03 - [34mdebug[39m: running function hook for phase deploy
+8 Jul 15:41:03 - [34mdebug[39m: hook for phase deploy complete
+8 Jul 15:41:03 - [34mdebug[39m: running NO-OP hook for phase: cleanup
+8 Jul 15:41:03 - [34mdebug[39m: hook for phase cleanup complete
+8 Jul 15:41:03 - [34mdebug[39m: running NO-OP hook for phase: cleanup
+8 Jul 15:41:03 - [34mdebug[39m: hook for phase cleanup complete
+8 Jul 15:41:03 - [34mdebug[39m: running function hook for phase cleanup
+8 Jul 15:41:03 - [34mdebug[39m: hook for phase cleanup complete
+8 Jul 15:41:03 - [34mdebug[39m: running function hook for phase cleanup
+8 Jul 15:41:03 - [34mdebug[39m: hook for phase cleanup complete
+8 Jul 15:41:15 - [34mdebug[39m: jobs.startJob(): saving job
+8 Jul 15:41:15 - [34mdebug[39m: jobs.startJob(): job saved
+8 Jul 15:41:30 - [34mdebug[39m: running function hook for phase prepare
+8 Jul 15:43:03 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 15:43:03 - [34mdebug[39m: running NO-OP hook for phase: prepare
+8 Jul 15:43:03 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 15:43:03 - [34mdebug[39m: running NO-OP hook for phase: prepare
+8 Jul 15:43:03 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 15:43:03 - [34mdebug[39m: running function hook for phase prepare
+8 Jul 15:43:03 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 15:43:03 - [34mdebug[39m: running function hook for phase test
+8 Jul 15:43:10 - [34mdebug[39m: hook for phase test complete
+8 Jul 15:43:10 - [34mdebug[39m: running shell command hook for phase test: $(test -x ~/bin/node && echo ~/bin/node || echo node) ../../node_modules/npm/bin/npm-cli.js test
+8 Jul 15:43:10 - [34mdebug[39m: hook for phase test complete
+8 Jul 15:43:10 - [34mdebug[39m: running function hook for phase test
+8 Jul 15:43:10 - [34mdebug[39m: hook for phase test complete
+8 Jul 15:43:10 - [34mdebug[39m: running function hook for phase test
+8 Jul 15:43:10 - [34mdebug[39m: hook for phase test complete
+8 Jul 15:43:10 - [34mdebug[39m: running Heroku deploy hook
+8 Jul 15:43:51 - [34mdebug[39m: running function hook for phase deploy
+8 Jul 15:43:51 - [34mdebug[39m: hook for phase deploy complete
+8 Jul 15:43:51 - [34mdebug[39m: running NO-OP hook for phase: deploy
+8 Jul 15:43:51 - [34mdebug[39m: hook for phase deploy complete
+8 Jul 15:43:51 - [34mdebug[39m: running NO-OP hook for phase: deploy
+8 Jul 15:43:51 - [34mdebug[39m: hook for phase deploy complete
+8 Jul 15:43:51 - [34mdebug[39m: running function hook for phase deploy
+8 Jul 15:43:51 - [34mdebug[39m: hook for phase deploy complete
+8 Jul 15:43:51 - [34mdebug[39m: running NO-OP hook for phase: cleanup
+8 Jul 15:43:51 - [34mdebug[39m: hook for phase cleanup complete
+8 Jul 15:43:51 - [34mdebug[39m: running NO-OP hook for phase: cleanup
+8 Jul 15:43:51 - [34mdebug[39m: hook for phase cleanup complete
+8 Jul 15:43:51 - [34mdebug[39m: running function hook for phase cleanup
+8 Jul 15:43:51 - [34mdebug[39m: hook for phase cleanup complete
+8 Jul 15:43:51 - [34mdebug[39m: running function hook for phase cleanup
+8 Jul 15:43:51 - [34mdebug[39m: hook for phase cleanup complete
+8 Jul 15:49:58 - [34mdebug[39m: POST to Github /webhook payload: {"ref":"refs/heads/master","after":"8f0e937694e2130739318f6af82657617066f509","before":"10989a7bf0a8a2ec8a736166b3947d804c5dda7b","created":false,"deleted":false,"forced":false,"compare":"https://github.com/SHMEDIALIMITED/node-webapp-template/compare/10989a7bf0a8...8f0e937694e2","commits":[{"id":"8f0e937694e2130739318f6af82657617066f509","distinct":true,"message":"t","timestamp":"2013-07-08T08:49:39-07:00","url":"https://github.com/SHMEDIALIMITED/node-webapp-template/commit/8f0e937694e2130739318f6af82657617066f509","author":{"name":"Patrick Wolleb","email":"patrick.wolleb@shmedia.co.uk","username":"PatrickWolleb"},"committer":{"name":"Patrick Wolleb","email":"patrick.wolleb@shmedia.co.uk","username":"PatrickWolleb"},"added":[],"removed":[],"modified":["package.json","src/package.json"]}],"head_commit":{"id":"8f0e937694e2130739318f6af82657617066f509","distinct":true,"message":"t","timestamp":"2013-07-08T08:49:39-07:00","url":"https://github.com/SHMEDIALIMITED/node-webapp-template/commit/8f0e937694e2130739318f6af82657617066f509","author":{"name":"Patrick Wolleb","email":"patrick.wolleb@shmedia.co.uk","username":"PatrickWolleb"},"committer":{"name":"Patrick Wolleb","email":"patrick.wolleb@shmedia.co.uk","username":"PatrickWolleb"},"added":[],"removed":[],"modified":["package.json","src/package.json"]},"repository":{"id":11176293,"name":"node-webapp-template","url":"https://github.com/SHMEDIALIMITED/node-webapp-template","description":"","watchers":0,"stargazers":0,"forks":0,"fork":false,"size":52008,"owner":{"name":"SHMEDIALIMITED","email":""},"private":false,"open_issues":0,"has_issues":true,"has_downloads":true,"has_wiki":true,"language":"JavaScript","created_at":1372941040,"pushed_at":1373298597,"master_branch":"master","organization":"SHMEDIALIMITED"},"pusher":{"name":"PatrickWolleb","email":"patrick.wolleb@shmedia.co.uk"}}
+8 Jul 15:49:58 - [34mdebug[39m: jobs.startJob(): saving job
+8 Jul 15:49:58 - [34mdebug[39m: jobs.startJob(): job saved
+8 Jul 15:50:23 - [34mdebug[39m: running function hook for phase prepare
+8 Jul 15:50:39 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 15:50:39 - [34mdebug[39m: running NO-OP hook for phase: prepare
+8 Jul 15:50:39 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 15:50:39 - [34mdebug[39m: running NO-OP hook for phase: prepare
+8 Jul 15:50:39 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 15:50:39 - [34mdebug[39m: running function hook for phase prepare
+8 Jul 15:50:39 - [34mdebug[39m: hook for phase prepare complete
+8 Jul 15:50:39 - [34mdebug[39m: running function hook for phase test
+8 Jul 15:50:40 - [34mdebug[39m: hook for phase test complete
+8 Jul 15:50:40 - [34mdebug[39m: running shell command hook for phase test: $(test -x ~/bin/node && echo ~/bin/node || echo node) ../../node_modules/npm/bin/npm-cli.js test
+8 Jul 15:50:41 - [34mdebug[39m: hook for phase test complete
+8 Jul 15:50:41 - [34mdebug[39m: running function hook for phase test
+8 Jul 15:50:41 - [34mdebug[39m: hook for phase test complete
+8 Jul 15:50:41 - [34mdebug[39m: running function hook for phase test
+8 Jul 15:50:41 - [34mdebug[39m: hook for phase test complete
+8 Jul 15:50:41 - [34mdebug[39m: running Heroku deploy hook
+8 Jul 15:51:16 - [34mdebug[39m: running function hook for phase deploy
+8 Jul 15:51:16 - [34mdebug[39m: hook for phase deploy complete
+8 Jul 15:51:16 - [34mdebug[39m: running NO-OP hook for phase: deploy
+8 Jul 15:51:16 - [34mdebug[39m: hook for phase deploy complete
+8 Jul 15:51:16 - [34mdebug[39m: running NO-OP hook for phase: deploy
+8 Jul 15:51:16 - [34mdebug[39m: hook for phase deploy complete
+8 Jul 15:51:16 - [34mdebug[39m: running function hook for phase deploy
+8 Jul 15:51:16 - [34mdebug[39m: hook for phase deploy complete
+8 Jul 15:51:16 - [34mdebug[39m: running NO-OP hook for phase: cleanup
+8 Jul 15:51:16 - [34mdebug[39m: hook for phase cleanup complete
+8 Jul 15:51:16 - [34mdebug[39m: running NO-OP hook for phase: cleanup
+8 Jul 15:51:16 - [34mdebug[39m: hook for phase cleanup complete
+8 Jul 15:51:16 - [34mdebug[39m: running function hook for phase cleanup
+8 Jul 15:51:16 - [34mdebug[39m: hook for phase cleanup complete
+8 Jul 15:51:16 - [34mdebug[39m: running function hook for phase cleanup
+8 Jul 15:51:16 - [34mdebug[39m: hook for phase cleanup complete
